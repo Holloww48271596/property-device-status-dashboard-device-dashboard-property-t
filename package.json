@@ -1,0 +1,12 @@
+{
+  "name": "property-device-status-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/device-dashboard.ts",
+    "test": "node --experimental-strip-types --test src/device-dashboard.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.7.2", "@types/node": "^22.10.1" }
+}
